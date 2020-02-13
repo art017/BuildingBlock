@@ -1,0 +1,115 @@
+@font-face
+{
+	font-family: 'Avenir-Black';
+	src: url('Avenir-Black.woff') format('woff'),
+	     url('Avenir-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Avenir-Book';
+	src: url('Avenir-Book.woff') format('woff'),
+	     url('Avenir-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Avenir-Heavy';
+	src: url('Avenir-Heavy.woff') format('woff'),
+	     url('Avenir-Heavy.ttf') format('truetype');
+}
+
+p
+{	
+	position: relative;
+	text-align: center;
+	top: 180px;
+	font-family: Avenir-Book, sans-serif;
+	font-size: 20px;
+	color: white;
+}
+.logo
+{
+	position: relative;
+	left: 127px;
+	top: 86px;
+	text-align: center;
+}
+.signup
+{	
+	font-family: Avenir-Black, sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+.screen 
+{
+    width: 375px;
+    height: 667px;
+    border: 0.5px solid black;
+    margin: 0px auto;
+    /*background-image: linear-gradient(#7DE0E0, #A8E7AF);*/
+    background: linear-gradient(180deg, #8AC0FF 0%, #A281D8 100%); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.building_block
+{
+	position: relative;
+	top: 80px;
+	font-family: Avenir-Black, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 49px;
+	text-align: center;
+	color: white;
+}
+
+.email
+{	
+	font-family: Avenir-Book, sans-serif;
+	position: relative;
+	font-size: 24px;
+	text-indent: 10px;
+	width: 250px;
+	height: 50px;
+	left: 65.85px;
+	top: 80px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.1);
+	color: #A5A5A5;
+	border: transparent;
+}
+
+.password
+{
+	font-family: Avenir-Book, sans-serif;
+	position: relative;
+	font-size: 24px;
+	text-indent: 10px;
+	width: 250px;
+	height: 50px;
+	left: 65.85px;
+	top: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.1);
+	color: #A5A5A5;
+	border: transparent;
+}
+
+.login
+{	
+	font-family: Avenir-Black, sans-serif;	
+	font-size: 24px;
+	position: relative;
+	width: 150px;
+	height: 50px;
+	left: 115.85px;
+	top: 150px;
+	border-radius: 10px;
+	color: white;
+	background: #D7C0FC;
+	border: transparent;
+	box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.1);
+}
