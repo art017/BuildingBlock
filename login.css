@@ -1,22 +1,22 @@
 @font-face
 {
 	font-family: 'Avenir-Black';
-	src: url('Avenir-Black.woff') format('woff'),
-	     url('Avenir-Black.ttf') format('truetype');
+	src: url('./Avenir/Avenir-Black.woff') format('woff'),
+	     url('./Avenir/Avenir-Black.ttf') format('truetype');
 }
 
 @font-face
 {
 	font-family: 'Avenir-Book';
-	src: url('Avenir-Book.woff') format('woff'),
-	     url('Avenir-Black.ttf') format('truetype');
+	src: url('./Avenir/Avenir-Book.woff') format('woff'),
+	     url('./Avenir/Avenir-Black.ttf') format('truetype');
 }
 
 @font-face
 {
 	font-family: 'Avenir-Heavy';
-	src: url('Avenir-Heavy.woff') format('woff'),
-	     url('Avenir-Heavy.ttf') format('truetype');
+	src: url('./Avenir/Avenir-Heavy.woff') format('woff'),
+	     url('./Avenir/Avenir-Heavy.ttf') format('truetype');
 }
 
 p
@@ -100,7 +100,7 @@ p
 
 .login
 {	
-	font-family: Avenir-Black, sans-serif;	
+	font-family: Avenir-Heavy, sans-serif;	
 	font-size: 24px;
 	position: relative;
 	width: 150px;

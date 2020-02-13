@@ -1,0 +1,120 @@
+@font-face
+{
+	font-family: 'Avenir-Black';
+	src: url('./Avenir/Avenir-Black.woff') format('woff'),
+	     url('./Avenir/Avenir-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Avenir-Book';
+	src: url('./Avenir/Avenir-Book.woff') format('woff'),
+	     url('./Avenir/Avenir-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'Avenir-Heavy';
+	src: url('./Avenir/Avenir-Heavy.woff') format('woff'),
+	     url('./Avenir/Avenir-Heavy.ttf') format('truetype');
+}
+
+.screen 
+{
+    width: 375px;
+    height: 667px;
+    border: 0.5px solid black;
+    margin: 0px auto;
+    /*background-image: linear-gradient(#7DE0E0, #A8E7AF);*/
+    /*background: linear-gradient(180deg, #8AC0FF 0%, #A281D8 100%); */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu
+{
+	position: relative;
+	top: 50px;
+	font-family: Avenir-Black, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 49px;
+	text-indent: 20px;
+}
+
+.button
+{
+	width: 80%;
+	text-align: center;
+	margin-top: 20px;
+	margin: auto;
+}
+.song_title
+{	
+	position: relative;
+	top: 50px;
+	width: 257.6px;
+	height: 50.8px;
+	left: 59px;
+	border: 1px solid black;
+	border-radius: 10px;
+
+}
+
+.browse
+{	
+	font-family: Avenir-Heavy, sans-serif;
+	position: relative;
+	top: 70px;
+	background-color: gray; 
+	border: none;
+	color: white;
+	padding: 15px 100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.time
+{
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+
+.back
+{
+	position: relative;
+	top: 325px;
+	text-indent: 10px;
+}
+
+#song
+{	
+	font-family: Avenir-Book, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+#start_box
+{	
+	font-family: Avenir-Book, sans-serif;
+	font-size: 24px;
+	width: 150px;
+	height: 50px;
+}
+
+#end_box
+{	
+	font-family: Avenir-Book, sans-serif;
+	font-size: 24px;
+	width: 150px;
+	height: 50px;
+}
+
+#apply
+{
+	left: 59px;
+	top: 100px;
+}

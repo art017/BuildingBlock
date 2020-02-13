@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="music.css">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<div class="screen">
+		<h1 class="menu">Music:</h1>
+		<div class="song_title"><p id="song"></p>
+		</div>
+		<div class="button">
+			<button class="browse" onclick="fillSong()">
+				Browse
+			</button>
+			<script>
+				function fillSong() {
+			  		document.getElementById("song").innerHTML = "Can We Chill - Neyo";
+				}
+			</script>
+		</div>
+		<div class="time">
+			
+			<input type="checkbox" name="start" value="start" onclick="if(this.checked){fillTimes()}">
+			<input id="start_box" name="start_box" disabled placeholder="Start">to
+			<input id="end_box" disabled placeholder="End">
+			<script>
+				function fillTimes(){
+					console.log("button pressed")
+					document.getElementById("start_box").placeholder = "0:54";
+					document.getElementById('end_box').placeholder = "1:30";
+				}
+			</script>
+		</div>
+		<h1 class="back" onclick="location.href='./newProject.html'"><</h1>
+		<button class="browse" id="apply" onclick="location.href='./newProject2.html'">Apply</button>
+	</div>
+</body>
+</html>
